@@ -2,6 +2,8 @@
 
 require_once('connect.php');
 
+/** @var PDO $pdo */
+
 session_start();
 
 function reader($msg, $pagination)
